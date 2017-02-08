@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6AE65731E39ABA000447A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65721E39ABA000447A58 /* main.m */; };
+		D6AE65761E39ABA000447A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65751E39ABA000447A58 /* AppDelegate.m */; };
+		D6AE65791E39ABA000447A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65781E39ABA000447A58 /* ViewController.m */; };
+		D6AE657C1E39ABA000447A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE657A1E39ABA000447A58 /* Main.storyboard */; };
+		D6AE657E1E39ABA000447A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE657D1E39ABA000447A58 /* Assets.xcassets */; };
+		D6AE65811E39ABA000447A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE657F1E39ABA000447A58 /* LaunchScreen.storyboard */; };
+		D6AE658A1E39BB1C00447A58 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65891E39BB1C00447A58 /* TableTableViewController.m */; };
+		D6AE658D1E39BB6900447A58 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE658C1E39BB6900447A58 /* CollectionViewController.m */; };
+		D6AE65901E39BBC800447A58 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE658F1E39BBC800447A58 /* DetailViewController.m */; };
+		D6AE65931E39BC0300447A58 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65921E39BC0300447A58 /* PresentViewController.m */; };
+		D6AE65961E39BC3200447A58 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65951E39BC3200447A58 /* CollectionViewCell.m */; };
+		D6AE65991E39BC5600447A58 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE65981E39BC5600447A58 /* SecondViewController.m */; };
+		D6AE659C1E39BC9300447A58 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AE659B1E39BC9300447A58 /* JZBaseViewController.m */; };
+		D6C446031E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445E31E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.m */; };
+		D6C446041E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445E51E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.m */; };
+		D6C446051E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445E71E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.m */; };
+		D6C446061E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445E91E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.m */; };
+		D6C446071E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445EB1E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.m */; };
+		D6C446081E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445ED1E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.m */; };
+		D6C446091E494EEF009F49F5 /* JZTransitionManager+PageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445EF1E494EEF009F49F5 /* JZTransitionManager+PageAnimation.m */; };
+		D6C4460A1E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445F11E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.m */; };
+		D6C4460B1E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445F31E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.m */; };
+		D6C4460C1E494EEF009F49F5 /* JZTransitionManager+TypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445F51E494EEF009F49F5 /* JZTransitionManager+TypeTool.m */; };
+		D6C4460D1E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445F71E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.m */; };
+		D6C4460E1E494EEF009F49F5 /* JZTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445F91E494EEF009F49F5 /* JZTransitionManager.m */; };
+		D6C4460F1E494EEF009F49F5 /* JZTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445FB1E494EEF009F49F5 /* JZTransitionProperty.m */; };
+		D6C446101E494EEF009F49F5 /* UINavigationController+JZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C445FE1E494EEF009F49F5 /* UINavigationController+JZTransition.m */; };
+		D6C446111E494EEF009F49F5 /* UIViewController+JZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C446001E494EEF009F49F5 /* UIViewController+JZTransition.m */; };
+		D6C446121E494EEF009F49F5 /* UIViewController+JZTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C446021E494EEF009F49F5 /* UIViewController+JZTransitionProperty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6AE656E1E39ABA000447A58 /* JZTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE65721E39ABA000447A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6AE65741E39ABA000447A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6AE65751E39ABA000447A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6AE65771E39ABA000447A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6AE65781E39ABA000447A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6AE657B1E39ABA000447A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6AE657D1E39ABA000447A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6AE65801E39ABA000447A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6AE65821E39ABA000447A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AE65881E39BB1C00447A58 /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTableViewController.h; sourceTree = "<group>"; };
+		D6AE65891E39BB1C00447A58 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTableViewController.m; sourceTree = "<group>"; };
+		D6AE658B1E39BB6900447A58 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		D6AE658C1E39BB6900447A58 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		D6AE658E1E39BBC800447A58 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D6AE658F1E39BBC800447A58 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D6AE65911E39BC0300447A58 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		D6AE65921E39BC0300447A58 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		D6AE65941E39BC3200447A58 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D6AE65951E39BC3200447A58 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D6AE65971E39BC5600447A58 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D6AE65981E39BC5600447A58 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D6AE659A1E39BC9300447A58 /* JZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBaseViewController.h; sourceTree = "<group>"; };
+		D6AE659B1E39BC9300447A58 /* JZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseViewController.m; sourceTree = "<group>"; };
+		D6C445E21E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		D6C445E31E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		D6C445E41E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+BoomAnimation.h"; sourceTree = "<group>"; };
+		D6C445E51E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+BoomAnimation.m"; sourceTree = "<group>"; };
+		D6C445E61E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+BrickAnimation.h"; sourceTree = "<group>"; };
+		D6C445E71E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+BrickAnimation.m"; sourceTree = "<group>"; };
+		D6C445E81E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+CoverAnimation.h"; sourceTree = "<group>"; };
+		D6C445E91E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+CoverAnimation.m"; sourceTree = "<group>"; };
+		D6C445EA1E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+FragmentAnimation.h"; sourceTree = "<group>"; };
+		D6C445EB1E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+FragmentAnimation.m"; sourceTree = "<group>"; };
+		D6C445EC1E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+InsideThenPushAnimation.h"; sourceTree = "<group>"; };
+		D6C445ED1E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+InsideThenPushAnimation.m"; sourceTree = "<group>"; };
+		D6C445EE1E494EEF009F49F5 /* JZTransitionManager+PageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+PageAnimation.h"; sourceTree = "<group>"; };
+		D6C445EF1E494EEF009F49F5 /* JZTransitionManager+PageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+PageAnimation.m"; sourceTree = "<group>"; };
+		D6C445F01E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+SpreadAnimation.h"; sourceTree = "<group>"; };
+		D6C445F11E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+SpreadAnimation.m"; sourceTree = "<group>"; };
+		D6C445F21E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+SystermAnimation.h"; sourceTree = "<group>"; };
+		D6C445F31E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+SystermAnimation.m"; sourceTree = "<group>"; };
+		D6C445F41E494EEF009F49F5 /* JZTransitionManager+TypeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+TypeTool.h"; sourceTree = "<group>"; };
+		D6C445F51E494EEF009F49F5 /* JZTransitionManager+TypeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+TypeTool.m"; sourceTree = "<group>"; };
+		D6C445F61E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZTransitionManager+ViewMoveAnimation.h"; sourceTree = "<group>"; };
+		D6C445F71E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JZTransitionManager+ViewMoveAnimation.m"; sourceTree = "<group>"; };
+		D6C445F81E494EEF009F49F5 /* JZTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTransitionManager.h; sourceTree = "<group>"; };
+		D6C445F91E494EEF009F49F5 /* JZTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTransitionManager.m; sourceTree = "<group>"; };
+		D6C445FA1E494EEF009F49F5 /* JZTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTransitionProperty.h; sourceTree = "<group>"; };
+		D6C445FB1E494EEF009F49F5 /* JZTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTransitionProperty.m; sourceTree = "<group>"; };
+		D6C445FC1E494EEF009F49F5 /* JZTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTypedefConfig.h; sourceTree = "<group>"; };
+		D6C445FD1E494EEF009F49F5 /* UINavigationController+JZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZTransition.h"; sourceTree = "<group>"; };
+		D6C445FE1E494EEF009F49F5 /* UINavigationController+JZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZTransition.m"; sourceTree = "<group>"; };
+		D6C445FF1E494EEF009F49F5 /* UIViewController+JZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JZTransition.h"; sourceTree = "<group>"; };
+		D6C446001E494EEF009F49F5 /* UIViewController+JZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZTransition.m"; sourceTree = "<group>"; };
+		D6C446011E494EEF009F49F5 /* UIViewController+JZTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JZTransitionProperty.h"; sourceTree = "<group>"; };
+		D6C446021E494EEF009F49F5 /* UIViewController+JZTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZTransitionProperty.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6AE656B1E39ABA000447A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6AE65651E39ABA000447A58 = {
+			isa = PBXGroup;
+			children = (
+				D6AE65701E39ABA000447A58 /* JZTransition */,
+				D6AE656F1E39ABA000447A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6AE656F1E39ABA000447A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE656E1E39ABA000447A58 /* JZTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6AE65701E39ABA000447A58 /* JZTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D6C445E11E494EEF009F49F5 /* JZTransition */,
+				D6AE65741E39ABA000447A58 /* AppDelegate.h */,
+				D6AE65751E39ABA000447A58 /* AppDelegate.m */,
+				D6AE65771E39ABA000447A58 /* ViewController.h */,
+				D6AE65781E39ABA000447A58 /* ViewController.m */,
+				D6AE65881E39BB1C00447A58 /* TableTableViewController.h */,
+				D6AE65891E39BB1C00447A58 /* TableTableViewController.m */,
+				D6AE658B1E39BB6900447A58 /* CollectionViewController.h */,
+				D6AE658C1E39BB6900447A58 /* CollectionViewController.m */,
+				D6AE658E1E39BBC800447A58 /* DetailViewController.h */,
+				D6AE658F1E39BBC800447A58 /* DetailViewController.m */,
+				D6AE65911E39BC0300447A58 /* PresentViewController.h */,
+				D6AE65921E39BC0300447A58 /* PresentViewController.m */,
+				D6AE65941E39BC3200447A58 /* CollectionViewCell.h */,
+				D6AE65951E39BC3200447A58 /* CollectionViewCell.m */,
+				D6AE65971E39BC5600447A58 /* SecondViewController.h */,
+				D6AE65981E39BC5600447A58 /* SecondViewController.m */,
+				D6AE659A1E39BC9300447A58 /* JZBaseViewController.h */,
+				D6AE659B1E39BC9300447A58 /* JZBaseViewController.m */,
+				D6AE657A1E39ABA000447A58 /* Main.storyboard */,
+				D6AE657D1E39ABA000447A58 /* Assets.xcassets */,
+				D6AE657F1E39ABA000447A58 /* LaunchScreen.storyboard */,
+				D6AE65821E39ABA000447A58 /* Info.plist */,
+				D6AE65711E39ABA000447A58 /* Supporting Files */,
+			);
+			path = JZTransition;
+			sourceTree = "<group>";
+		};
+		D6AE65711E39ABA000447A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE65721E39ABA000447A58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6C445E11E494EEF009F49F5 /* JZTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D6C445E21E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.h */,
+				D6C445E31E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.m */,
+				D6C445E41E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.h */,
+				D6C445E51E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.m */,
+				D6C445E61E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.h */,
+				D6C445E71E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.m */,
+				D6C445E81E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.h */,
+				D6C445E91E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.m */,
+				D6C445EA1E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.h */,
+				D6C445EB1E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.m */,
+				D6C445EC1E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.h */,
+				D6C445ED1E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.m */,
+				D6C445EE1E494EEF009F49F5 /* JZTransitionManager+PageAnimation.h */,
+				D6C445EF1E494EEF009F49F5 /* JZTransitionManager+PageAnimation.m */,
+				D6C445F01E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.h */,
+				D6C445F11E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.m */,
+				D6C445F21E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.h */,
+				D6C445F31E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.m */,
+				D6C445F41E494EEF009F49F5 /* JZTransitionManager+TypeTool.h */,
+				D6C445F51E494EEF009F49F5 /* JZTransitionManager+TypeTool.m */,
+				D6C445F61E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.h */,
+				D6C445F71E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.m */,
+				D6C445F81E494EEF009F49F5 /* JZTransitionManager.h */,
+				D6C445F91E494EEF009F49F5 /* JZTransitionManager.m */,
+				D6C445FA1E494EEF009F49F5 /* JZTransitionProperty.h */,
+				D6C445FB1E494EEF009F49F5 /* JZTransitionProperty.m */,
+				D6C445FC1E494EEF009F49F5 /* JZTypedefConfig.h */,
+				D6C445FD1E494EEF009F49F5 /* UINavigationController+JZTransition.h */,
+				D6C445FE1E494EEF009F49F5 /* UINavigationController+JZTransition.m */,
+				D6C445FF1E494EEF009F49F5 /* UIViewController+JZTransition.h */,
+				D6C446001E494EEF009F49F5 /* UIViewController+JZTransition.m */,
+				D6C446011E494EEF009F49F5 /* UIViewController+JZTransitionProperty.h */,
+				D6C446021E494EEF009F49F5 /* UIViewController+JZTransitionProperty.m */,
+			);
+			path = JZTransition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6AE656D1E39ABA000447A58 /* JZTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE65851E39ABA000447A58 /* Build configuration list for PBXNativeTarget "JZTransition" */;
+			buildPhases = (
+				D6AE656A1E39ABA000447A58 /* Sources */,
+				D6AE656B1E39ABA000447A58 /* Frameworks */,
+				D6AE656C1E39ABA000447A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZTransition;
+			productName = JZTransition;
+			productReference = D6AE656E1E39ABA000447A58 /* JZTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6AE65661E39ABA000447A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wanhongios;
+				TargetAttributes = {
+					D6AE656D1E39ABA000447A58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SVHP59BWC7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D6AE65691E39ABA000447A58 /* Build configuration list for PBXProject "JZTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6AE65651E39ABA000447A58;
+			productRefGroup = D6AE656F1E39ABA000447A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6AE656D1E39ABA000447A58 /* JZTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6AE656C1E39ABA000447A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE65811E39ABA000447A58 /* LaunchScreen.storyboard in Resources */,
+				D6AE657E1E39ABA000447A58 /* Assets.xcassets in Resources */,
+				D6AE657C1E39ABA000447A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6AE656A1E39ABA000447A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C446041E494EEF009F49F5 /* JZTransitionManager+BoomAnimation.m in Sources */,
+				D6AE65991E39BC5600447A58 /* SecondViewController.m in Sources */,
+				D6C4460C1E494EEF009F49F5 /* JZTransitionManager+TypeTool.m in Sources */,
+				D6AE659C1E39BC9300447A58 /* JZBaseViewController.m in Sources */,
+				D6C446071E494EEF009F49F5 /* JZTransitionManager+FragmentAnimation.m in Sources */,
+				D6AE658A1E39BB1C00447A58 /* TableTableViewController.m in Sources */,
+				D6C446111E494EEF009F49F5 /* UIViewController+JZTransition.m in Sources */,
+				D6C446031E494EEF009F49F5 /* JZPercentDrivenInteractiveTransition.m in Sources */,
+				D6AE65791E39ABA000447A58 /* ViewController.m in Sources */,
+				D6C4460F1E494EEF009F49F5 /* JZTransitionProperty.m in Sources */,
+				D6AE65761E39ABA000447A58 /* AppDelegate.m in Sources */,
+				D6C446091E494EEF009F49F5 /* JZTransitionManager+PageAnimation.m in Sources */,
+				D6C4460D1E494EEF009F49F5 /* JZTransitionManager+ViewMoveAnimation.m in Sources */,
+				D6C446081E494EEF009F49F5 /* JZTransitionManager+InsideThenPushAnimation.m in Sources */,
+				D6AE658D1E39BB6900447A58 /* CollectionViewController.m in Sources */,
+				D6AE65931E39BC0300447A58 /* PresentViewController.m in Sources */,
+				D6C4460B1E494EEF009F49F5 /* JZTransitionManager+SystermAnimation.m in Sources */,
+				D6AE65731E39ABA000447A58 /* main.m in Sources */,
+				D6AE65961E39BC3200447A58 /* CollectionViewCell.m in Sources */,
+				D6C446061E494EEF009F49F5 /* JZTransitionManager+CoverAnimation.m in Sources */,
+				D6C446121E494EEF009F49F5 /* UIViewController+JZTransitionProperty.m in Sources */,
+				D6C4460E1E494EEF009F49F5 /* JZTransitionManager.m in Sources */,
+				D6C446101E494EEF009F49F5 /* UINavigationController+JZTransition.m in Sources */,
+				D6AE65901E39BBC800447A58 /* DetailViewController.m in Sources */,
+				D6C4460A1E494EEF009F49F5 /* JZTransitionManager+SpreadAnimation.m in Sources */,
+				D6C446051E494EEF009F49F5 /* JZTransitionManager+BrickAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6AE657A1E39ABA000447A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE657B1E39ABA000447A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6AE657F1E39ABA000447A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE65801E39ABA000447A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6AE65831E39ABA000447A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6AE65841E39ABA000447A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6AE65861E39ABA000447A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SVHP59BWC7;
+				INFOPLIST_FILE = JZTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanhong.JZTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6AE65871E39ABA000447A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SVHP59BWC7;
+				INFOPLIST_FILE = JZTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanhong.JZTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6AE65691E39ABA000447A58 /* Build configuration list for PBXProject "JZTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE65831E39ABA000447A58 /* Debug */,
+				D6AE65841E39ABA000447A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE65851E39ABA000447A58 /* Build configuration list for PBXNativeTarget "JZTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE65861E39ABA000447A58 /* Debug */,
+				D6AE65871E39ABA000447A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6AE65661E39ABA000447A58 /* Project object */;
+}
